@@ -22,7 +22,6 @@ const HealthScreeningReport = () => {
         {
             id: 1,
             name: 'Jeffery Mohamad Bin Christofa',
-            category: 'Test Category',
             icNo: '830516015213',
             package: 'K3',
             memberID: '040110100073001',
@@ -33,7 +32,6 @@ const HealthScreeningReport = () => {
         {
             id: 2,
             name: 'Wong Sin Yi',
-            category: 'Test Category',
             icNo: 'S693118A',
             package: 'K3',
             memberID: '040110100073001',
@@ -44,7 +42,6 @@ const HealthScreeningReport = () => {
         {
             id: 3,
             name: 'Liu Yan',
-            category: 'Test Category',
             icNo: '150103197908131051',
             package: 'K3',
             memberID: '040110100073001',
@@ -54,7 +51,6 @@ const HealthScreeningReport = () => {
         },
         {
             id: 4,
-            category: 'Test Category',
             name: 'Lok Wing Ching',
             icNo: '286730572532',
             package: 'K3',
@@ -65,7 +61,6 @@ const HealthScreeningReport = () => {
         },
         {
             id: 5,
-            category: 'Test Category',
             name: 'Angelica Lee',
             icNo: '111000105757',
             package: 'K3',
@@ -76,7 +71,6 @@ const HealthScreeningReport = () => {
         },
         {
             id: 6,
-            category: 'Test Category',
             name: 'Noraini Binti Hassan',
             icNo: '690602136118',
             package: 'K3',
@@ -87,7 +81,6 @@ const HealthScreeningReport = () => {
         },
         {
             id: 7,
-            category: 'Test Category',
             name: 'Grosen Edly Anak Henry',
             icNo: '900311136671',
             package: 'K3',
@@ -98,7 +91,6 @@ const HealthScreeningReport = () => {
         },
         {
             id: 8,
-            category: 'Test Category',
             name: 'Dato Hussin',
             icNo: '510317-13-5131',
             package: 'K3',
@@ -109,7 +101,6 @@ const HealthScreeningReport = () => {
         },
         {
             id: 9,
-            category: 'Test Category',
             name: 'Chen Yu Lin',
             icNo: 'A234567890',
             package: 'K3',
@@ -120,7 +111,6 @@ const HealthScreeningReport = () => {
         },
         {
             id: 10,
-            category: 'Test Category',
             name: 'Deen Zhen',
             icNo: '111000105757',
             package: 'K3',
@@ -131,7 +121,6 @@ const HealthScreeningReport = () => {
         },
         {
             id: 11,
-            category: 'Test Category',
             name: 'Ramasamy Lispra',
             icNo: '900311136671',
             package: 'K3',
@@ -142,7 +131,6 @@ const HealthScreeningReport = () => {
         },
         {
             id: 12,
-            category: 'Test Category',
             name: 'Mohammad Ismail',
             icNo: '690602136118',
             package: 'K3',
@@ -153,7 +141,6 @@ const HealthScreeningReport = () => {
         },
         {
             id: 13,
-            category: 'Test Category',
             name: 'Sanjay Adam',
             icNo: 'S693118A',
             package: 'K3',
@@ -164,7 +151,6 @@ const HealthScreeningReport = () => {
         },
         {
             id: 14,
-            category: 'Test Category',
             name: 'Abu Bakar',
             icNo: '830516-01-5213',
             package: 'K3',
@@ -421,16 +407,6 @@ const HealthScreeningReport = () => {
                                             }
                                             style={{ textAlign: 'center' }}
                                         >
-                                            Category
-                                        </p>
-                                    </TableCell>
-                                    <TableCell>
-                                        <p
-                                            className={
-                                                styles.itRoomPrintingTableHeadTitle
-                                            }
-                                            style={{ textAlign: 'center' }}
-                                        >
                                             Member ID
                                         </p>
                                     </TableCell>
@@ -476,18 +452,6 @@ const HealthScreeningReport = () => {
                                                     }
                                                 >
                                                     {item.name}
-                                                </p>
-                                            </TableCell>
-                                            <TableCell>
-                                                <p
-                                                    className={
-                                                        styles.tableCellValue
-                                                    }
-                                                    style={{
-                                                        textAlign: 'center',
-                                                    }}
-                                                >
-                                                    {item.category}
                                                 </p>
                                             </TableCell>
                                             <TableCell>

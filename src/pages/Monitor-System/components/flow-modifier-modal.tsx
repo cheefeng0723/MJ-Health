@@ -95,10 +95,6 @@ const FlowModifierModal: React.FC<Props> = ({
             id: '7',
             label: 'MUL',
         },
-        {
-            id: '8',
-            label: 'NI',
-        },
     ]
     return (
         <React.Fragment>

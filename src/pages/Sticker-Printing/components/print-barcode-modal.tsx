@@ -218,7 +218,6 @@ const PrintBarcodeModal: React.FC<Props> = ({
                                                         />
                                                     ),
                                                 }}
-                                                format='DD/MM/YYYY'
                                             />
                                         </LocalizationProvider>
                                     </Grid>
@@ -246,7 +245,6 @@ const PrintBarcodeModal: React.FC<Props> = ({
                                                         />
                                                     ),
                                                 }}
-                                                format='DD/MM/YYYY'
                                             />
                                         </LocalizationProvider>
                                     </Grid>

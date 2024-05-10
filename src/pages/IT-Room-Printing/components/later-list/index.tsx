@@ -18,7 +18,6 @@ const MakeUpLaterList: React.FC<Props> = ({ matches }: Props) => {
         {
             id: 1,
             name: 'Jeffery Mohamad Bin Christofa',
-            category: 'Test Category',
             icNo: '830516015213',
             package: 'K3',
             memberID: '040110100073001',
@@ -31,7 +30,6 @@ const MakeUpLaterList: React.FC<Props> = ({ matches }: Props) => {
         },
         {
             id: 2,
-            category: 'Test Category',
             name: 'Wong Sin Yi',
             icNo: 'S693118A',
             package: 'K3',
@@ -45,7 +43,6 @@ const MakeUpLaterList: React.FC<Props> = ({ matches }: Props) => {
         },
         {
             id: 3,
-            category: 'Test Category',
             name: 'Liu Yan',
             icNo: '150103197908131051',
             package: 'K3',
@@ -59,7 +56,6 @@ const MakeUpLaterList: React.FC<Props> = ({ matches }: Props) => {
         },
         {
             id: 4,
-            category: 'Test Category',
             name: 'Lok Wing Ching',
             icNo: '286730572532',
             package: 'K3',
@@ -73,7 +69,6 @@ const MakeUpLaterList: React.FC<Props> = ({ matches }: Props) => {
         },
         {
             id: 5,
-            category: 'Test Category',
             name: 'Angelica Lee',
             icNo: '111000105757',
             package: 'K3',
@@ -87,7 +82,6 @@ const MakeUpLaterList: React.FC<Props> = ({ matches }: Props) => {
         },
         {
             id: 6,
-            category: 'Test Category',
             name: 'Noraini Binti Hassan',
             icNo: '690602136118',
             package: 'K3',
@@ -101,7 +95,6 @@ const MakeUpLaterList: React.FC<Props> = ({ matches }: Props) => {
         },
         {
             id: 7,
-            category: 'Test Category',
             name: 'Grosen Edly Anak Henry',
             icNo: '900311136671',
             package: 'K3',
@@ -115,7 +108,6 @@ const MakeUpLaterList: React.FC<Props> = ({ matches }: Props) => {
         },
         {
             id: 8,
-            category: 'Test Category',
             name: 'Dato Hussin',
             icNo: '510317-13-5131',
             package: 'K3',
@@ -130,7 +122,6 @@ const MakeUpLaterList: React.FC<Props> = ({ matches }: Props) => {
         {
             id: 9,
             name: 'Chen Yu Lin',
-            category: 'Test Category',
             icNo: 'A234567890',
             package: 'K3',
             memberID: '040110100073001',
@@ -144,7 +135,6 @@ const MakeUpLaterList: React.FC<Props> = ({ matches }: Props) => {
         {
             id: 10,
             name: 'Deen Zhen',
-            category: 'Test Category',
             icNo: '111000105757',
             package: 'K3',
             memberID: '040110100073001',
@@ -157,7 +147,6 @@ const MakeUpLaterList: React.FC<Props> = ({ matches }: Props) => {
         },
         {
             id: 11,
-            category: 'Test Category',
             name: 'Ramasamy Lispra',
             icNo: '900311136671',
             package: 'K3',
@@ -171,7 +160,6 @@ const MakeUpLaterList: React.FC<Props> = ({ matches }: Props) => {
         },
         {
             id: 12,
-            category: 'Test Category',
             name: 'Mohammad Ismail',
             icNo: '690602136118',
             package: 'K3',
@@ -185,7 +173,6 @@ const MakeUpLaterList: React.FC<Props> = ({ matches }: Props) => {
         },
         {
             id: 13,
-            category: 'Test Category',
             name: 'Sanjay Adam',
             icNo: 'S693118A',
             package: 'K3',
@@ -200,7 +187,6 @@ const MakeUpLaterList: React.FC<Props> = ({ matches }: Props) => {
         {
             id: 14,
             name: 'Abu Bakar',
-            category: 'Test Category',
             icNo: '830516-01-5213',
             package: 'K3',
             memberID: '040110100073001',
@@ -239,16 +225,6 @@ const MakeUpLaterList: React.FC<Props> = ({ matches }: Props) => {
                                     }
                                 >
                                     Name
-                                </p>
-                            </TableCell>
-                            <TableCell>
-                                <p
-                                    className={
-                                        styles.itRoomPrintingTableHeadTitle
-                                    }
-                                    style={{ textAlign: 'center' }}
-                                >
-                                    Category
                                 </p>
                             </TableCell>
                             <TableCell>
@@ -319,16 +295,6 @@ const MakeUpLaterList: React.FC<Props> = ({ matches }: Props) => {
                                             }
                                         >
                                             {item.name}
-                                        </p>
-                                    </TableCell>
-                                    <TableCell>
-                                        <p
-                                            className={styles.tableCellValue}
-                                            style={{
-                                                textAlign: 'center',
-                                            }}
-                                        >
-                                            {item.category}
                                         </p>
                                     </TableCell>
                                     <TableCell>
